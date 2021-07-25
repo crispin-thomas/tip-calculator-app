@@ -1,0 +1,59 @@
+.my-left-container {
+  padding: 30px 20px 30px 30px;
+}
+
+#dollar-icon {
+  margin-top: -150px;
+}
+
+.my-form-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #697577;
+}
+
+.format-custom {
+  text-align: center;
+}
+
+.button-color {
+  color: #fff;
+  background-color: #014641;
+  border-color: #014641;
+  font-weight: 700;
+  width: 100%;
+}
+
+.button-color:hover {
+  color: #014641 !important;
+  background-color: #9fe8df !important;
+  border-color: #9fe8df !important;
+}
+
+.check-button:active + .button-color,
+.check-button:checked + .button-color,
+.button-color.active,
+.button-color:active,
+.show > .button-color.dropdown-toggle {
+  background-color: #26c2ad !important;
+  border-color: #26c2ad !important;
+  color: #00474b !important;
+}
+
+.format-input {
+  background-image: url("../icons/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  width: 100%;
+  padding-left: 30px;
+  text-align: right;
+}
+
+.form-input-1 {
+  background-image: url("../icons/icon-person.svg");
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  width: 100%;
+  padding-left: 30px;
+  text-align: right;
+}

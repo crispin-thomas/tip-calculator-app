@@ -1,0 +1,83 @@
+.right-side-container {
+  padding: 25px 20px 20px 0px;
+}
+
+.card-style {
+  border-radius: 10px;
+  background-color: #00474b;
+}
+
+.align-text {
+  line-height: 2px;
+  padding-top: 28px;
+}
+
+.align-text > p {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.align-text > span {
+  font-size: 10px;
+  color: lightgray;
+  padding-left: 10px;
+}
+
+.amount {
+  color: #26c2ad;
+  text-align: right;
+  font-size: 40px;
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+.button-row {
+  padding-top: 80px;
+  padding-bottom: 5px;
+}
+
+.button-col {
+  padding: "0px 20px 10px";
+}
+
+.button-align {
+  width: 100%;
+  text-align: center;
+  background-color: #26c2ad;
+  border-color: #26c2ad;
+  font-weight: 700;
+  color: #00474b;
+}
+
+.button-align:hover,
+.button-align:focus,
+.button-align:active {
+  color: #014641;
+  background-color: #9fe8df;
+  border-color: #9fe8df;
+}
+
+@media screen and (max-width: 480px) {
+  .right-side-container {
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+  .button-row{
+    padding-top: 0px;
+  }
+  .mobile-view{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+  }
+  .amount {
+    color: #26c2ad;
+    text-align: right;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 12px;
+    font-weight: 700;
+  }
+}
